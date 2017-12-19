@@ -15,10 +15,15 @@ You can use git diff with no arguments to see the difference between the staging
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If you want to add an feature, then you could create a branch and make the necessary modifications, while keeping your master branch intact. The master branch is your production branch that always works. Branches also help share work between multiple people.
+
 How do the diagrams help you visualize the branch structure?
+The diagrams help me see that git commits can end up being non linear, and explains the concept of branching and reachability. Branching is when the path of storing commits is diverted from the master branch. Reachability is the concept that if you were to checkout a previous commit, and then commit from that point, it's possible that that commit can become unreachable and therefore lost because its not on a branch, so it's important to be aware of where to create commits, and when to create branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+The result of merging 2 branches together is first a new commit is created which is the tip of both the branches, which contains the combined changes from both branches' latest commit. Then this commit, which is the tip of the merged branch points to all the previous commits from both branches which is sorted by timestamp.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually? 
