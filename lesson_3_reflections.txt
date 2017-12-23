@@ -17,3 +17,17 @@ This can be helpful in merging your local changes with the remote and then updat
 repository. The more out of sync you are with the remote repository, the more work you will have to do
 to get in-sync with the changes, so it helps to have the most up to date version of the remote repository
 as possible.
+
+How would you collaborate without using Git or GitHub? What would be easier and what 
+would be harder.
+
+Collaborating without using git/Github could be easier for small projects because I'm in close contact with my partners and we can talk to one another about the changes we are working on. This becomes harder if we are not in close contact, and or if there are many changes and files. Using git/git hub we can track numerous changes, made by many people over a large number of files in an organized and efficient manner. The learning curve is something to get over, but in the end learning the commands will overall increase the efficiency of working on a large-scale project with many collaborators simpler.
+
+When would you want to make changes in a seperate branch rather than directly in master? What benefits
+does this approach have?
+
+Making changes on branches allows the master branch to be unaffected and working as intended. 
+Experimintal features and things that aren't quite working properly could be in the branch and until
+you are confident that introducing these changes into master won't cause a problem it's a good 
+idea to work on the branch seperately and merge into master when you are ready. Making changes on branches
+also allows you to collaborate on these experimintal changes
