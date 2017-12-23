@@ -27,3 +27,5 @@ The result of merging 2 branches together is first a new commit is created which
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually? 
+
+Manual merging allows you to verify what changes you want from both branches as opposed to having git arbitrarily make that decision for you.

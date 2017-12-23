@@ -2,3 +2,11 @@ When would you want to create a remote repository rather than keeping all your w
 
 If you are working on a project with multiple people and want to share the code so they can view/edit as well
 then this would be an instance wheen you can create a remote repository.
+
+
+Why might you want to always pull changes manually rather than having git automatically stay up-todate
+with your remote repository?
+
+It would be a good idea to be aware of what changes you are actually pulling into your codebase so you know what
+changed. Also there might be instances where there are changes made in remote that you don't want in your local
+repository which you can avoid by manually pulling from remote. 
