@@ -10,3 +10,10 @@ with your remote repository?
 It would be a good idea to be aware of what changes you are actually pulling into your codebase so you know what
 changed. Also there might be instances where there are changes made in remote that you don't want in your local
 repository which you can avoid by manually pulling from remote.  
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This can be helpful in merging your local changes with the remote and then updating this change to the
+repository. The more out of sync you are with the remote repository, the more work you will have to do
+to get in-sync with the changes, so it helps to have the most up to date version of the remote repository
+as possible.
